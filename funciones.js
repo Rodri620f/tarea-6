@@ -14,3 +14,19 @@ function sumar(a){
     return 2+2;
 }
 console.log(sumar(a));
+
+function sumita (b){
+    return b + 2;
+}
+console.log(sumita(5));
+function sumas(a, b){
+    return a + b;
+}
+console.log(sumas(4 , 5));
+function sumando(c, d){
+    console.log(arguments)
+    return c + d
+}
+let res= sumando(5, 6, 1, 2, 3)
+console.log(res);
+console.log(typeof sumando );
