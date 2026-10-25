@@ -38,4 +38,9 @@ function sumadito(x , y){
     total= aux; 
     return total; 
 }
-console.log(sumatido(10,12));
+console.log(sumadito(10, 12));
+
+function resta(){
+    return 20-7; 
+} 
+console.log(resta());
